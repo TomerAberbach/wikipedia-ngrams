@@ -58,6 +58,11 @@ $ java -jar wikipedia-ngrams.jar 3 out/contexts.txt
 
 The outputted files will not be sorted. Use a command-line tool like `sort` to do so.
 
+## Dependencies
+
+* [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/index.html)
+* [fastutil](http://fastutil.di.unimi.it)
+
 ## Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/TomerAberbach/wikipedia-ngrams/issues/new). `OutOfMemoryError` is not a legitimate issue. The burden is on the user to allocate enough heap space and have a large enough RAM (consider allocating a larger [swap file](https://linuxize.com/post/create-a-linux-swap-file)).
