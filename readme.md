@@ -58,25 +58,13 @@ $ java -jar wikipedia-ngrams.jar 3 out/contexts.txt
 
 The outputted files will not be sorted. Use a command-line tool like `sort` to do so.
 
+Note that `OutOfMemoryError` is not a legitimate issue. The burden is on the user to allocate enough heap space and have a large enough RAM (consider allocating a larger [swap file](https://linuxize.com/post/create-a-linux-swap-file)).
+
 ## Dependencies
 
-* [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/index.html)
-* [fastutil](http://fastutil.di.unimi.it)
-
-## Contributing
-
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/TomerAberbach/wikipedia-ngrams/issues/new). `OutOfMemoryError` is not a legitimate issue. The burden is on the user to allocate enough heap space and have a large enough RAM (consider allocating a larger [swap file](https://linuxize.com/post/create-a-linux-swap-file)).
-
-## Author
-
-**Tomer Aberbach**
-
-* [Github](https://github.com/TomerAberbach)
-* [NPM](https://www.npmjs.com/~tomeraberbach)
-* [LinkedIn](https://www.linkedin.com/in/tomer-a)
-* [Website](https://tomeraberba.ch)
+- [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/index.html)
+- [fastutil](http://fastutil.di.unimi.it)
 
 ## License
 
-Copyright © 2019 [Tomer Aberbach](https://github.com/TomerAberbach)
-Released under the [MIT license](https://github.com/TomerAberbach/wikipedia-ngrams/blob/master/LICENSE).
+[MIT](https://github.com/TomerAberbach/wikipedia-ngrams/blob/master/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
