@@ -67,4 +67,4 @@ Note that `OutOfMemoryError` is not a legitimate issue. The burden is on the use
 
 ## License
 
-[MIT](https://github.com/TomerAberbach/wikipedia-ngrams/blob/master/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
+[MIT](https://github.com/TomerAberbach/wikipedia-ngrams/blob/main/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
